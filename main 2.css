@@ -86,7 +86,7 @@ a:hover {
 
 .safety {
   font-family: 'poppins';
-  padding-left: 60px;
+  padding-left: 40px;
   padding-top: 100px;
   color: #095f30;
 }
@@ -94,13 +94,13 @@ a:hover {
 .global {
   font-family: 'poppins';
   margin: 0;
-  padding-left: 60px;
+  padding-left: 40px;
   padding-bottom: 250px;
   color: #03767a;
 }
 
 #lm-strategy {
-  padding-left: 60px;
+  padding-left: 20px;
   text-decoration: none;
   font-size: 20px;
   font-weight: bolder;
