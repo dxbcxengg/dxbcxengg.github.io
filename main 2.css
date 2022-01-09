@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap");
+body {
+  background-color: #bae8d8;
+  margin: 0;
+}
+
+#cx-log {
+  position: center;
+  width: 375px;
+  margin-top: -100px;
+  margin-left: -30px;
+  
+}
+
+#station {
+  margin-top: -95px;
+  margin-left: 57px;
+  font-size: 25px;
+  margin-bottom: 3px;
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+
+#cx-vision {
+  text-decoration: none;
+  padding-left: 57px;
+  font-size: 20px;
+  margin-bottom: 3px;
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+
+a {
+  color: #0c474e;
+  text-decoration: none;
+  padding:0;
+}
+
+a:hover {
+  color: #0464d1;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: -20px;
+  margin-right: 0px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:"poppins";
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav a.hub {
+  background-color: #12a19a;
+}
+.classic, .a350cockpit, .b747-8{
+  border: 5px solid #0c474e;
+  display:none;
+  
+  
+}
+.jumbotron {
+  background-image:url(https://media.istockphoto.com/photos/cathay-pacific-view-from-below-preparing-to-land-picture-id947694246?b=1&k=20&m=947694246&s=170667a&w=0&h=84TIq-7C4Gk-ie9MfAZ_tknK06-wEvAvaa_tO7IM-yw=);
+  background-position: 0% 25%;
+  background-size: cover;
+  height: 700px;
+  margin-top: 0px;
+}
+
+.safety {
+  font-family: 'poppins';
+  padding-left: 80px;
+  padding-top: 100px;
+  color: #067739;
+}
+
+.global {
+  font-family: 'poppins';
+  margin: 0;
+  padding-left: 80px;
+  padding-bottom: 350px;
+  color: #03767a;
+}
+
+#lm-strategy {
+  padding-left: 80px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'poppins';
+}
+
+#lm-strategy a:hover {
+  color: #333;
+}
+.section1 {
+  background-color: #a6db96;
+  margin-left:50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+  
+}
+
+h3.title-store {
+  background-color: #0c474e;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 0px;
+  padding-left:0;
+  margin-right: 0px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.store-list {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+}
+
+.section2 {
+  background-color: #a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.title-Training {
+  background-color: #0c474e;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 0px;
+  padding-left: 12px;
+  margin-right: 0px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.training-mat {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+}
+
+#btt {
+  color: #a3885f;
+}
+
+.section3 {
+  background-color: #a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.passes {
+  background-color: #0c474e;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 0px;
+  padding-left: 12px;
+  margin-right: 0px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.a-pass {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+}
+
+.section4 {
+  background-color: #a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.roster {
+  background-color: #0c474e;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 0px;
+  padding-left: 12px;
+  margin-right: 0px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.stn-mvt {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+}
+
+ul.stn-mvt {
+  margin: 0;
+  padding-left: 0;
+}
+
+.section5 {
+  background-color: #a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+.manuals {
+  background-color: #0c474e;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 0px;
+  padding-left: 12px;
+  margin-right: 0px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.p-manuals {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+  margin: 0;
+  padding-left: 0;
+}
+
+.section6{
+  background-color:#a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.third{
+  background-color:#0c474e;
+  color: white;
+  font-family: 'poppins';
+  border-radius: 5px;
+  margin-bottom:0;
+  
+  
+}
+
+h4{
+  
+  font-family:'poppins';
+  
+  
+}
+
+li{
+  text-decoration:none;
+  list-style-type:none;
+  font-family:'poppins';
+}
+
+.common{
+  background-color:#95da81;
+  border-radius:4px;
+  text-align:center;
+  padding:0 0 0 0;
+
+}
+
+.title-common{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+  margin-top:0;
+  
+  
+}
+.ca{
+  
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+
+.title-ca{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+
+
+.mu{
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0;
+}
+
+.title-mu{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+
+
+.su{
+  
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0;
+}
+
+.title-su{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+
+
+.rp{
+
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0;
+}
+
+.title-rp{
+  background-color:#087260;
+  
+  border-radius:4px;
+  color:white;
+}
+
+
+#btb{
+  
+  color:#a3885f;
+  font-weight: bold;
+  font-family:'poppins';
+
+}
+
+.section7{
+  background-color: #a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.work-order{
+  background-color:#0c474e;
+  color: white;
+  font-family: 'poppins';
+  border-radius: 5px;
+  
+}
+
+.w-f{
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+  
+}
+
+.section8{
+  background-color:#a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.usefultips{
+  background-color:#0c474e;
+  color: white;
+  font-family: 'poppins';
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.airbus-list{
+  background-color:#95da81;
+  border-radius:4px;
+  padding: 0 0 0 0;
+}
+
+.airbus{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+  margin-top:0;
+}
+
+.boeing-list{
+  padding-left:0;
+  background-color:#95da81;
+  border-radius:4px;
+}
+
+.boeing{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+
+.etechlog{
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+
+.elog{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+
+.all{
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+
+.all-fleet{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+
+@media only screen and (min-width: 650px) {
+
+  .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8{
+    width:550px;
+  }
+
+  .jumbotron {
+    background-image:url(../../pictures/A350pic.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    height: 740px;
+    margin-top: 0px;
+  }
+ 
+  
+}
+
+@media only screen and (min-width:1090px){
+
+  .classic{
+    display:inline-flex;
+    float:right;
+    width:1180px;
+    margin-right:50px;
+    padding-top: 0;
+    
+    
+  }
+
+  .a350cockpit{
+    display:inline-flex;
+    float:right;
+    width:1180px;
+    margin-right:50px;
+    padding-top: 0;
+    margin-top: 50px;
+  }
+
+  .b747-8{
+    display:inline-flex;
+    float:right;
+    width:1180px;
+    margin-right:50px;
+    padding-top: 0;
+    margin-top: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */
