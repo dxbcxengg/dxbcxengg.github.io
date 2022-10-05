@@ -127,7 +127,7 @@ a.tips{
 .topnav a.videos:hover{
   background-color:#ddd;
 }
-.classic, .a350cockpit, .b747-8, .a330, .b777, .b787{
+.classic, .a350cockpit, .b747-8, .a330, .b777, .b787, .cxB777{
   border: 5px solid #0c474e;
   display:none;
   
@@ -937,6 +937,27 @@ h4.phaseCheck{
     padding-top: 0;
     margin-top: 50px;
   }
+
+  .b787{
+    display:inline-flex;
+    float:right;
+    width:1180px;
+    margin-right:50px;
+    padding-top: 0;
+    margin-top: 50px;
+  }
+
+  .cxB777{
+    display:inline-flex;
+    float:right;
+    width:1180px;
+    margin-right:50px;
+    padding-top: 0;
+    margin-top: 50px;
+  }
+
+
+
   .secondnav {
     
     margin-top: 10000px;
