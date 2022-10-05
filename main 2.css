@@ -162,7 +162,7 @@ a.tips{
   font-size: 20px;
   font-weight: bolder;
   font-family: 'poppins';
-  padding:5px;
+  padding-left:50px;
   
 
 }
@@ -825,15 +825,47 @@ h4.phaseCheck{
   margin-bottom: 5px;
 } 
  
+@media only screen and (min-width: 652px){
+
+  .jumbotron {
+    background-image:url(https://i.pinimg.com/originals/27/a7/59/27a7593cfe5b98ee085afbc2271c8924.jpg);
+    /*background-size: cover;
+    height: 900px;*/
+    margin-top: 0px;
+    width:100%;
+    height:100%;
   
+  }
+  .global {
+    font-family: 'poppins';
+    
+    padding-left: 60px;
+    padding-top: opx;
+    padding-bottom: 200px;
+    color: #023335;
+   
+  }
+
+  .lm-strategy {
+    
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'poppins';
+    color:white;
+    padding-left: 150px;
+    margin-bottom: 300px;
+
+  }
+}  
   
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 1244px) {
 
   
 
   .jumbotron {
-    background-image:url(http://www.pointswithacrew.com/wp-content/uploads/2017/03/CATHAY-A350_3.jpg);
+    background-image:url(https://cdn.uc.assets.prezly.com/a8f3d97a-789d-4062-b60a-c3f7acef855d/-/preview/2048x2048/-/quality/best/-/format/auto/);
     /*background-size: cover;
     height: 900px;*/
     margin-top: 0px;
@@ -846,15 +878,16 @@ h4.phaseCheck{
   .safety {
     font-family: 'poppins';
     padding-left: 40px;
-    padding-top: 100px;
+    padding-top: 80px;
     color: #054e26;
   }
   
   .global {
     font-family: 'poppins';
     margin: 0;
-    padding-left: 40px;
-    padding-bottom: 400px;
+    padding-left: 60px;
+    padding-top: 300px;
+    padding-bottom: 100px;
     color: #023335;
   }
   
@@ -878,7 +911,9 @@ h4.phaseCheck{
 }
 
 
-@media only screen and (min-width:1100px){
+@media only screen and (min-width:1244px){
+
+  
 
   .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8{
     width:500px;
