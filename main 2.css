@@ -1,0 +1,970 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap");
+body {
+  background-color: #bae8d8;
+  margin: 0;
+  padding:0;
+}
+
+
+#cx-log {
+  width: 375px;
+  margin-top: -100px;
+  margin-left: -30px;
+  margin-bottom:-10px;
+ 
+  
+}
+
+#station {
+  margin-top: -95px;
+  margin-left: 57px;
+  font-size: 25px;
+  margin-bottom: 0px;
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+
+#cx-vision {
+  text-decoration: none;
+  padding-left: 57px;
+  font-size: 20px;
+  margin-bottom: 3px;
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+
+a {
+  color: #0c474e;
+  text-decoration: none;
+  padding:0;
+}
+
+a:hover {
+  color: #0464d1;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: -20px;
+  margin-right: 0px;
+  margin-top:20px;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:"poppins";
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(20, 19, 19);
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.topnav a.flt-log{
+  color:#ddf507;
+}
+a.invoice3p{
+  color:#d27eeb
+}
+a.roster{
+  color:#f5aa07
+}
+a.charge_folder{
+  color:rgb(192, 157, 224)
+}
+a.cust_airline{
+  color:rgb(131, 225, 241)
+}
+a.str{
+  color:#95da81
+}
+a.trng{
+  color:#077afd
+}
+a.form{
+  color:#00ff22
+}
+a.gnd{
+  color:#a3d813
+}
+a.pm{
+  color:#e9c48d
+}
+a.tips{
+  color:#06cf85
+}
+.flt-log{
+  z-index: 1;
+}
+.topnav a.flt-log:hover, a.roster:hover, a.invoice:hover{
+  color:black;
+}
+
+.topnav a.admin{
+  color:#ddf507
+}
+.topnav a.admin:hover{
+  color:black;
+}
+
+.topnav a.hub {
+  background-color: #12a19a;
+}
+.topnav a.videos{
+  background-color:rgb(4, 20, 92);
+}
+.topnav a.videos:hover{
+  background-color:#ddd;
+}
+.classic, .a350cockpit, .b747-8, .a330, .b777, .b787{
+  border: 5px solid #0c474e;
+  display:none;
+  
+  
+}
+.jumbotron {
+  background-image:url(https://media.istockphoto.com/photos/cathay-pacific-view-from-below-preparing-to-land-picture-id947694246?b=1&k=20&m=947694246&s=170667a&w=0&h=84TIq-7C4Gk-ie9MfAZ_tknK06-wEvAvaa_tO7IM-yw=);
+  background-position: 0% 25%;
+  background-size: cover;
+  height: 700px;
+  margin-top: 0px;
+  
+}
+
+.safety {
+  padding-top:100px;
+  font-family: 'poppins';
+  color: #095f30;
+  text-align:center;
+}
+
+.global {
+  font-family: 'poppins';
+  color: #03767a;
+  text-align:center;
+  margin-bottom:300px;
+}
+
+.lm-strategy {
+  
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'poppins';
+  padding:5px;
+  
+
+}
+
+#lm-strategy a:hover {
+  color: #333;
+}
+.section1 {
+  background-color: #a6db96;
+  margin-left:50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+  
+}
+
+h3.title-store {
+  background-color: #0c474e;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 0px;
+  padding-left:0;
+  margin-right: 0px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+.store-sym{
+  position:absolute;
+  width:40px;
+  margin-top:-35px;
+  margin-left:-165px;
+  border-radius:10px;
+  
+  border:4px solid #0c474e;
+}
+
+.store-list {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+}
+.storeList{
+  
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+h4.storeControlled{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+h4.proceduresStore{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+.storeGuides {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+}
+.storeGuides{
+  
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+.section2 {
+  background-color: #a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.title-Training {
+  background-color: #0c474e;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 0px;
+  padding-left: 12px;
+  margin-right: 0px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+.train{
+  position:absolute;
+  width:40px;
+  margin-top:-35px;
+  margin-left:-165px;
+  border-radius:10px;
+  
+  border:4px solid #0c474e;
+}
+
+.training-mat {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+#cxReadSign {
+color:rgb(209, 65, 65)
+}
+.b787File{
+  
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+h4.b787Training{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+
+#btt {
+  color:#a3885f;
+  font-weight: bold;
+  font-family:'poppins';
+
+}
+#btt:hover{
+  color:white;
+}
+
+.section3 {
+  background-color: #a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.passes {
+  background-color: #0c474e;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 0px;
+  padding-left: 12px;
+  margin-right: 0px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+.form-sym{
+  position:absolute;
+  width:45px;
+  margin-top:-35px;
+  margin-left:-165px;
+  border-radius:10px;
+  border-color:#0c474e;
+  border:4px solid #0c474e;
+}
+.a-pass {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+}
+.a-pass{
+  
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+h4.forms-title{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+
+.section4 {
+  background-color: #a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.gndEquipt {
+  background-color: #0c474e;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 0px;
+  padding-left: 12px;
+  margin-right: 0px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+
+
+.section5 {
+  background-color: #a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+.manuals {
+  background-color: #0c474e;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 0px;
+  padding-left: 12px;
+  margin-right: 0px;
+  border-radius: px;
+  margin-bottom: 0;
+}
+.sop{
+  position:absolute;
+  width:45px;
+  margin-top:-45px;
+  margin-left:-180px;
+  border-radius:50px;
+  border-color:#0c474e;
+  border:4px solid #0c474e;
+}
+
+.p-manuals {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+  margin: 0;
+  padding-left: 0;
+}
+.ea{
+  color:red;
+}
+.ea:hover{
+  color:royalblue;
+}
+
+.section6{
+  background-color:#a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.third{
+  background-color:#0c474e;
+  color: white;
+  font-family: 'poppins';
+  border-radius: 5px;
+  margin-bottom:0;
+  
+}
+.customer-sym{
+  position:absolute;
+  width:40px;
+  margin-top:-35px;
+  margin-left:-165px;
+  border-radius:10px;
+  border-color:#0c474e;
+  border:4px solid #0c474e;
+}
+
+h4{
+  
+  font-family:'poppins';
+  
+  
+}
+
+li{
+  text-decoration:none;
+  list-style-type:none;
+  font-family:'poppins';
+}
+
+.common{
+  background-color:#95da81;
+  border-radius:4px;
+  text-align:center;
+  padding:0 0 0 0;
+
+}
+
+.title-common{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+  margin-top:0;
+  
+  
+}
+#handling_note{
+  color:#0777f8
+}
+.ca{
+  
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+
+.title-ca{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+.ca-logo{
+  position:absolute;
+  width:30px;
+  margin-top:-50px;
+  margin-left:-70px;
+
+}
+.rs{
+  color:rgb(209, 65, 65)
+}
+
+.mu{
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0;
+}
+
+.title-mu{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+.mu-logo{
+  position:absolute;
+  width:30px;
+  margin-top:-50px;
+  margin-left:-93px;
+
+}
+
+
+.su{
+  
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0;
+}
+
+.title-su{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+.su-logo{
+  position:absolute;
+  width:25px;
+  margin-top:-47px;
+  margin-left:-73px;
+}
+
+
+.rp{
+
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0;
+}
+
+.title-rp{
+  background-color:#087260;
+  
+  border-radius:4px;
+  color:white;
+}
+.pr-logo{
+  position:absolute;
+  width:40px;
+  margin-top:-53px;
+  margin-left:-123px;
+}
+.j5{
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0;
+}
+.title-5j{
+  background-color:#087260;
+  
+  border-radius:4px;
+  color:white;
+}
+.ceb-logo{
+  position:absolute;
+  width:30px;
+  margin-top:-48px;
+  margin-left:-105px;
+  border-radius:15px;
+}
+
+
+.section7{
+  background-color: #a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.work-order{
+  background-color:#0c474e;
+  color: white;
+  font-family: 'poppins';
+  border-radius: 5px;
+  
+}
+.ofc-sym{
+  position:absolute;
+  width:40px;
+  margin-top:-53px;
+  margin-left:-165px;
+  border-radius:10px;
+  
+  border:4px solid #0c474e;
+}
+
+.w-f{
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'poppins';
+  padding:0 0 0 0;
+  
+}
+.sap{
+  background-color:#087260;
+  
+  border-radius:4px;
+  color:white;
+}
+.contacts{
+  background-color:#087260;
+  
+  border-radius:4px;
+  color:white;
+}
+.staff{
+  background-color:#087260;
+  
+  border-radius:4px;
+  color:white;
+}
+
+
+.dxbStnContacts{
+  color:rgb(190, 75, 8)
+}
+.rosterPlan{
+  color:rgb(168, 46, 9)
+}
+.invoice3ps{
+  color:rgb(168, 86, 9)
+}
+.lmOpsSp{
+  color:rgb(3, 54, 12)
+}
+
+.section8{
+  background-color:#a6db96;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align:center;
+}
+
+h3.usefultips{
+  background-color:#0c474e;
+  color: white;
+  font-family: 'poppins';
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.techpub-sym{
+  position:absolute;
+  width:40px;
+  margin-top:-35px;
+  margin-left:-165px;
+  border-radius:10px;
+  
+  border:4px solid #0c474e;
+}
+
+.airbus-list{
+  background-color:#95da81;
+  border-radius:4px;
+  padding: 0 0 0 0;
+}
+
+.airbus{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+  margin-top:0;
+}
+
+.airbus-logo{
+  position:absolute;
+  width:28px;
+  margin-top:-48px;
+  margin-left:-60px;
+  border-radius:49px;
+}
+
+.air{
+  color:#072dac;
+}
+#dot{
+  color:red;
+}
+.air:hover{
+  color:white;
+}
+.boeing-list{
+  padding-left:0;
+  background-color:#95da81;
+  border-radius:4px;
+}
+
+.boeing{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+  font-style:oblique;
+  font-weight:700;
+}
+.boeing-logo{
+  position:absolute;
+  width:35px;
+  margin-top:-47px;
+  margin-left:-66px;
+}
+.myboeing{
+  color:rgb(6, 103, 182);
+}
+.myboeing:hover{
+  color:white;
+
+}
+.etechlog{
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+
+.elog{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+.etlog-sym{
+  position:absolute;
+  width:25px;
+  margin-top:-48px;
+  margin-left:-79px;
+  border-radius:5px;
+  border:2px solid #087260;
+}
+.lmCabinPhaseCheck{
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+h4.phaseCheck{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+.cabinPic{
+  position:absolute;
+  width:50px;
+  margin-top:-48px;
+  margin-left:-150px;
+  border-radius:5px;
+  border:2px solid #087260;
+}
+.all{
+  background-color:#95da81;
+  border-radius:4px;
+  padding:0 0 0 0;
+}
+
+.all-fleet{
+  background-color:#087260;
+  border-radius:4px;
+  color:white;
+}
+
+
+.secondnav {
+  overflow: hidden;
+  background-color: rgb(4, 20, 92);
+  margin-bottom: -18px;
+  margin-right: 0px;
+  margin-top: 50px;
+  
+}
+
+.secondnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:"poppins";
+}
+
+.secondnav a:hover {
+  background-color: #ddd;
+  color: rgb(20, 19, 19);
+}
+
+.secondnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+
+.video-wrapper{
+  background-color: #a6db96;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  text-align:center;
+  
+  
+}
+.video-wrapper iframe{
+  width: auto;
+  height: auto;
+}
+.video-wrapper h3{
+  background-color:#0c474e;
+  color: white;
+  font-family: 'poppins';
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+ .v1 a{
+   margin-left:25px;
+ }
+
+.toolsUse{
+  background-color: #a6db96;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  text-align:center;
+}
+.toolsUse h3{
+  background-color:#0c474e;
+  color: white;
+  font-family: 'poppins';
+  border-radius: 5px;
+  margin-bottom: 5px;
+} 
+ 
+  
+  
+
+@media only screen and (min-width: 750px) {
+
+  
+
+  .jumbotron {
+    background-image:url(http://www.pointswithacrew.com/wp-content/uploads/2017/03/CATHAY-A350_3.jpg);
+    /*background-size: cover;
+    height: 900px;*/
+    margin-top: 0px;
+    width:100%;
+    height:100%;
+  
+  }
+  
+ 
+  .safety {
+    font-family: 'poppins';
+    padding-left: 40px;
+    padding-top: 100px;
+    color: #054e26;
+  }
+  
+  .global {
+    font-family: 'poppins';
+    margin: 0;
+    padding-left: 40px;
+    padding-bottom: 400px;
+    color: #023335;
+  }
+  
+  .lm-strategy {
+    padding-left:250px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'poppins';
+    margin-left:200px;
+    color:white;
+    margin-bottom: 50px;
+
+  }
+  .secondnav {
+    
+    margin-top: 50px;
+    
+  }
+  
+}
+
+
+@media only screen and (min-width:1100px){
+
+  .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8{
+    width:500px;
+    opacity:0.75;
+    
+  }
+  
+  .two{
+    position:absolute;
+  }
+  .classic{
+    display:inline-flex;
+    float:right;
+    max-width:1180px;
+    margin-right:50px;
+    margin-top:20px;
+    
+    
+    
+  
+  } 
+
+  .a350cockpit{
+    display:inline-flex;
+    float:right;
+    width:1180px;
+    margin-right:50px;
+    padding-top: 0;
+    margin-top: 50px;
+    z-index:-1;
+    
+   
+  }
+
+  .b747-8{
+    display:inline-flex;
+    float:right;
+    width:1180px;
+    margin-right:50px;
+    padding-top: 0;
+    margin-top: 50px;
+  }
+  .a330{
+    display:inline-flex;
+    float:right;
+    width:1180px;
+    margin-right:50px;
+    padding-top: 0;
+    margin-top: 50px;
+  }
+  .b777{
+    display:inline-flex;
+    float:right;
+    width:1180px;
+    margin-right:50px;
+    padding-top: 0;
+    margin-top: 50px;
+  }
+  .secondnav {
+    
+    margin-top: 10000px;
+    
+  }
+  
+}
+
+@media only screen and (min-width:1806px){
+  .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8{
+    width:500px;
+    opacity:1;
+  }
+  .secondnav {
+   
+    margin-top: 10000px;
+    
+  }
+  .video-wrapper iframe{
+    width:560px;
+    height:315px;
+  }
+  
+}
+
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */
